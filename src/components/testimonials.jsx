@@ -36,7 +36,7 @@ const AppTestimonials = () => {
                 </div>
                 <Carousel controls={false}>
                     {testimonialsData.map((testimonials) => (
-                        <Carousel.Item>
+                        <Carousel.Item key={testimonials.id}>
                             <blockquote>
                                 <p>{testimonials.description}</p>
                                 <cite>

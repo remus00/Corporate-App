@@ -57,9 +57,9 @@ const AppContact = () => {
                 <iframe
                     title="map"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d143005.83894162672!2d-3.3701423330761493!3d55.941290665006214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887b800a5982623%3A0x64f2147b7ce71727!2sEdimburgo%2C%20Regno%20Unito!5e0!3m2!1sit!2sit!4v1696327886559!5m2!1sit!2sit"
-                    allowfullscreen=""
+                    allowFullScreen=""
                     loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
+                    referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
             </div>
 
